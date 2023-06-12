@@ -1,0 +1,82 @@
+.head {
+  padding: 20px 0;
+  color: #219ebc;
+}
+
+.logo h1 {
+  font-size: 35px;
+  font-weight: 900;
+  color: #219ebc;
+}
+.head .icon {
+  margin-left: 10px;
+}
+/* ---------------------------Header----------------------- */
+
+header {
+  background-color: rgba(255, 255, 255, 0.541);
+  margin: 0 30px;
+  position: relative;
+}
+
+header ul {
+  padding: 30px 20px;
+}
+
+header li {
+  margin-right: 40px;
+}
+
+header ul li a {
+  color: #219ebc;
+  font-weight: 1000;
+  font-size: 20px;
+  transition: 0.5s;
+}
+
+header ul li a:hover {
+  color: black;
+}
+.toggle {
+  display: none;
+}
+@media screen and (max-width: 768px) {
+  header {
+    margin: 0;
+    background-color: rgb(255, 255, 255, 0.8);
+    position: relative;
+    /* opacity: 90%; */
+  }
+  header ul.flexSB {
+    display: none;
+  }
+  header ul li {
+    margin-bottom: 20px;
+  }
+  header ul li a {
+    color: #219ebc;
+    font-weight: 1000;
+    font-size: 20px;
+    transition: 0.5s;
+  }
+  header ul li a:hover {
+    color: black;
+  }
+  .toggle {
+    display: block;
+    background: none;
+    color: #fff;
+    font-size: 30px;
+    position: absolute;
+    right: 50px;
+    top: -30px;
+  }
+  .mobile-nav {
+    padding: absolute;
+    top: 7vh;
+    left: 0;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: 50%;
+  }
+}
